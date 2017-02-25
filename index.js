@@ -17,7 +17,7 @@ console.log('Authorizing and initializing Bot...');
 bot.getMe()
   .then(me => {
     console.log('Bot has been successfully authorized. Name is', me.first_name);
-    trolling.addTrollingMessages(bot);
+    //trolling.addTrollingMessages(bot);
     botMessagesLogger(bot);
 
     return Promise.all(config.databases.map(path => questionsDatabase(require.resolve(path))))

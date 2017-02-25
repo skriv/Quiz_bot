@@ -1,5 +1,5 @@
 {
   "databases": [
-    "./questions-database/questions-test.txt"
+    "./questions-database/questions.txt"
   ]
 }
