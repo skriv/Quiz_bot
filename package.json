@@ -1,7 +1,7 @@
 {
-  "name": "gennady-quiz-bot",
+  "name": "guiz-bot",
   "version": "0.1.0",
-  "description": "A telegram bot for playing quizes",
+  "description": "A telegram bot for education",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -16,7 +16,7 @@
     "Telegram",
     "Bot"
   ],
-  "author": "Andrey Skladchikov",
+  "author": "_",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/huston007/gennady-quiz-bot/issues"
